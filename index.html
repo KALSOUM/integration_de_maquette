@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+         <nav class="navbar navbar-default navbar-fixed-top" >
+             <div class="navbar-header">
+                 <a   href="http://" class="navbar-brand"><img src="img/logo.png" class="image" width="70"></a>
+                 <button class="navbar-toggle" data-toggle="collapse" data-target="#navcol-1">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+             </div>
+              <div class="collapse navbar-collapse" id="navcol-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li role="presentation"><a href="#menu">Accueil</a></li>
+                                <li role="presentation"><a href="#section">Produits </a></li>
+                                <li role="presentation"><a href="#section2">Ingredients </a></li>
+                                <li role="presentation"><a href="#section3">CONTACT</a></li>
+                            </ul>
+                      
+             </div>
+        </nav>
+</div>
+
+     <!-- notre session slide -->
+<div id="menu" class="section">
+     <div class="container">
+                <img class="img-responsive" name="slide"  width="100%" height="184">  
+      </div>
+</div>
+     <!-- notre session produits -->
+     <div id="section" class="section-1">
+        <div class="container">
+          <div class="decen"><h1 >Nos produits</h1></div>
+            <div class="row" >
+                <div class="col-lg-4">
+                    <img src="img/coffee.png" alt="" width="300">
+                    <br>
+                    <br>
+                    <P>chocolat noir
+                        depuis les années 1500, quand un imprimeur anonyme 
+                        assembla ensemble des morceaux de texte pour réaliser 
+                        un livre spécimen de polices de texte. Il n'a 
+                    </P>
+                  </div>
+                 <div class="col-lg-4">
+                    <img src="img/cafe.jpg" alt="" width="350" class="img-responsive">
+                    <br>
+                    <br>
+                    <P>chocolat noir
+                        depuis les années 1500, quand un imprimeur anonyme 
+                        assembla ensemble des morceaux de texte pour réaliser 
+                        un livre spécimen de polices de texte. Il n'a. 
+                    </P>
+                 </div>
+                 <div class="col-lg-4">
+                    <img src="img/produit.png" alt="" width="270"  class="img-responsive">
+                    <br>
+                    <br>
+                    <P>chocolat noir
+                        depuis les années 1500, quand un imprimeur anonyme 
+                        assembla ensemble des morceaux de texte pour réaliser 
+                        un livre spécimen de polices de texte. Il n'a .
+                    </P>
+                  </div>
+            </div>
+        </div>
+    </div>
+     <!-- FIN SECTION PRODUITS -->
+    <!--  SECTION INGREDIENTS -->
+        <div id="section2" class="section2">
+         <div class="container">
+            <div class="Ingredients"><h1>Ingrédients</h1></div >
+              <div class="row">
+                <div class="col-lg-4 ">
+                    <img src="img/coffee.png" alt="" width="400" class="img-circle img-responsive" >
+                </div>
+                <div class="col-lg-8">
+                    <P class="para">
+                        chocolat noir
+                        depuis les années 1500, quand un imprimeur anonyme 
+                        assembla ensemble des morceaux de texte pour réaliser 
+                        un livre spécimen de polices de texte. Il n'a .
+                        chocolat noir
+                        depuis les années 1500, quand un imprimeur anonyme 
+                        assembla ensemble des morceaux de texte pour réaliser 
+                        un livre spécimen de polices de texte. Il n'a .
+                        chocolat noir
+                        depuis les années 1500, quand un imprimeur anonyme 
+                        assembla ensemble des morceaux de texte pour réaliser 
+                        un livre spécimen de polices de texte. Il n'a .
+                    </P>
+                </div>
+          </div>
+</div>
+</div>
+    <!-- FIN SECTION INGREDIENTS -->
+    <!-- section contact -->
+<div id="section3" class="section3">
+<div class="contact"><h1>Contact</h1></div >       
+  <div class="container-form">
+    <div class="row">
+    <div class="col-xs-12">
+        <form class="form">
+           <div class="form-group">
+             <div class="col-xs-6" >
+                <label for="name"  class="control-label">Nom</label>
+                    <input type="text" placeholder="Entrez votre nom" id="idnom" required="required"class="form-control" style="color:white" >	 
+                    <span id="errorName"></span>
+                </div>
+            </div> 
+             <div class="form-group">
+                <div class="col-xs-6" >
+                  <label for="name"  class="control-label">Prenom</label>
+                   <input  type="text"  placeholder="Entrez votre Prenom" id="idprenom" class="form-control" required="required"  >
+                   <span id="errorLastname"></span><br>
+                </div>
+             </div> 
+             <div class="form-group">
+              <div class="col-xs-12">
+                   <label for="email"  class="control-label">email</label>
+                   <input type="email"  placeholder="Entrez votre adress email" id="idemail" required="required" class="form-control"><br>
+                   <span id="errorEmail"></span><br>
+              </div>
+            </div>
+             <div class="form-group">
+              <div class="col-xs-12" >
+                 <label for="message"  class="control-label">Message</label>
+                 <textarea id="message" cols="30" rows="10"class="form-control"></textarea> <br>
+                <br>
+               </div>
+             </div>
+    
+            <div class="form-group">
+             <div class="col-xs-6" >
+                    <button class="btn btn-success">Envoyer</button>
+             </div>
+            </div>
+            <div class="form-group">
+            <div class="col-xs-6 text-right" >
+                <button class="btn btn-danger ">Annuler</button> 
+            </div>
+            </div>
+        </form>
+       </div>
+     </div>
+   </div>
+</div>
+ 
+<!-- section fin contact -->
+<!-- FOOTER -->
+<footer>
+   <div class="section4">
+       <div class="container-footer">
+            <div class="row-grid">
+                    <div>
+                        <a href="#"><img src="img/log.jpg" class="photo img-responsive img-rounded " ></a>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ">
+              <menu >
+                    <div class="row-flex">
+                    
+                    <div><li><a href="#">Accueil</a></li></div>
+                    <div><li><a href="#"> Produits</a></li></div>
+                    <div><li><a href="#">Ingredients</a></li></div>
+                    <div><li><a href="#">Contact</a></li></div>
+                </div>
+              </menu>
+            </div>  
+                <div class="col-md-6 ">
+                    <div class="row-grid lign">
+                                <div><a href=""><img src="img/fac.png" class=" img-responsive" width="50" title="Facebook"></a></div>
+                                <div><a href=""><img src="img/inst.png" class=" img-responsive" width="50" title="Instangram"></a> </div>
+                                <div><a href=""><img src="img/twi.png" class=" img-responsive" width="50" title="Twitter"></a></div>
+                        </div>
+                    </div>
+              </div>
+              <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                      <a href="#menu">
+                              <img src="img/fleche.png" width="100" alt=""  class="FLECH">
+                      </a>
+                  </div>
+              </div>
+        </div>
+    </div>
+ 
+</footer>
+<!--  FIN FOOTER -->
+    <script src="js/jquery.min.js"></script>    
+<script src="js/bootstrap.min.js"></script>    
+<script src="js/monsrcipt.js"></script>
+<script src="js/monjs.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+body{
+    padding-top:55px; 
+    font-family: Quantify;
+    background-color: #cccccc;
+}
+
+.image:hover{
+    position: relative;
+   opacity: 0.5;
+  
+
+}
+.image{
+position: relative;
+top: -25px;
+
+}
+
+    li {
+position: relative;
+text-decoration: none
+   }
+  li:hover  {
+    position: relative;
+   border: solid #D73351;
+       }
+       
+@media (max-width: 480px) { /* Remplacez 123px par la taille de votre choix */
+    .navbar-header {
+    float: right;
+    }
+   
+      .navbar-collapse { 
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+    display: none!important;
+    }
+    .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        position: relative;
+    float: right;
+    }
+    .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .navbar-text {
+    float: none;
+    margin: 15px 0;
+    }
+    /* cette classe est à ajouter lorsque que vous utilisez une version de Bootstap supérieure ou égale à la 3.1.0  
+    .navbar-collapse.collapse.in {
+    display: block!important;
+    }
+    .collapsing {
+    overflow: hidden!important;
+    }*/
+    
+    .text{
+    position: relative;
+     left:  10px;
+      font-size: 40%;
+    }
+    
+    }
+    .section{
+        background-color: #fdef90 !important;
+        border:solid #FFFFFF;
+        
+    }
+    .section-1 ,.section2,.section3{
+        background-color: #D73351;
+       padding:80px;
+       border-radius: 10px;
+       border:solid #FFFFFF;
+    }
+    .section4{
+        background-color: #D73351;
+       /* padding:80px; */
+       border-radius: 10px;
+       border:solid #FFFFFF;
+    }
+ .decen{
+        position: relative;
+        text-align: center;
+        top: -5em;
+         color: #FFFFFF;
+        
+    }
+    .decen:hover{
+        position: relative;
+        text-align: center;
+        top: -5em; color: #FFFFFF;
+        text-decoration-line: underline;
+    }
+    hr{
+        position: relative;
+        width: 100%;
+        size: 200em;
+        bottom: -5em;
+    }
+    .Ingredients{
+        position: relative;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .Ingredients:hover{
+        position: relative;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration-line: underline;
+    } 
+    p{
+        color: #FFFFFF;
+    }
+    .para{
+        position: relative;
+        left: 20px;
+        bottom: -20px;
+    }
+ .control-label { 
+		color: #FFFFFF;
+		
+    }
+    
+    .contact{
+        position: relative;
+        text-align: center;
+        top: -5em;
+         color: #FFFFFF;
+        
+    }
+    .contact:hover{
+        position: relative;
+        text-align: center;
+        top: -5em; color: #FFFFFF;
+        text-decoration-line: underline;
+    }
+    .photo{
+        position: relative;
+       background-color: #FFFFFF;
+         top: -3em;  
+        margin-left: 10em;
+     
+    }
+   
+     menu li{
+        position: relative;
+    /* display: list-item; */
+    list-style: none;
+    float: left;
+    } 
+    menu li a{
+        text-decoration: none;
+	 color: #FFFFFF;
+	 padding: 0%;
+     margin: 2em;
+     width: 100%;
+	
+    } 
+    menu li {
+        position: relative;
+        text-decoration: none;
+      
+           }
+     menu li:hover  {
+            position: relative;
+           border: solid #FFFFFF;
+           color:#FFFFFF;
+               }
+     .row-grid {
+                margin: 40px auto;
+                 max-width: 480px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+              }
+     .row-grid div {
+                text-align: center;
+                /* padding: 10px; */
+              }
+              .lign{
+                  position: relative;
+                  top: -50px;
+                  margin: 70px auto; 
+                  padding: 0px;
+              }
+    .row-flex {
+               margin: 40px auto; 
+                max-width: 600px;
+                display: flex;
+                flex-wrap: wrap;
+              }
+     .row-flex div {
+               
+                flex: 1 1 100px;
+                text-align: left;
+                /* padding: 12px; */
+              }
+              .FLECH{
+                  position: relative;
+                  top: -3em;
+              }
+                .form-control{
+                  background-color: #cccccc;
+                  color: #FFFFFF;
+              }
+             
